@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jonah/static/css/main.dfad0f28.chunk.css",
+    "main.js": "/jonah/static/js/main.73617e38.chunk.js",
+    "main.js.map": "/jonah/static/js/main.73617e38.chunk.js.map",
+    "runtime-main.js": "/jonah/static/js/runtime-main.37a9027a.js",
+    "runtime-main.js.map": "/jonah/static/js/runtime-main.37a9027a.js.map",
+    "static/css/2.b896682a.chunk.css": "/jonah/static/css/2.b896682a.chunk.css",
+    "static/js/2.97f5fe39.chunk.js": "/jonah/static/js/2.97f5fe39.chunk.js",
+    "static/js/2.97f5fe39.chunk.js.map": "/jonah/static/js/2.97f5fe39.chunk.js.map",
+    "static/js/3.9aefaebc.chunk.js": "/jonah/static/js/3.9aefaebc.chunk.js",
+    "static/js/3.9aefaebc.chunk.js.map": "/jonah/static/js/3.9aefaebc.chunk.js.map",
+    "index.html": "/jonah/index.html",
+    "static/css/2.b896682a.chunk.css.map": "/jonah/static/css/2.b896682a.chunk.css.map",
+    "static/css/main.dfad0f28.chunk.css.map": "/jonah/static/css/main.dfad0f28.chunk.css.map",
+    "static/js/2.97f5fe39.chunk.js.LICENSE.txt": "/jonah/static/js/2.97f5fe39.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/jonah/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37a9027a.js",
+    "static/css/2.b896682a.chunk.css",
+    "static/js/2.97f5fe39.chunk.js",
+    "static/css/main.dfad0f28.chunk.css",
+    "static/js/main.73617e38.chunk.js"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "classes": [
+    {
+      "title": "CS125 - Introduction to Computer Science",
+      "description": "Basic concepts in computing and fundamental techniques for solving computational problems. Object oriented programming taught in Java. For my final project, I built on an app in Android Studio using Java to rate UIUC CS courses.",
+      "completed": true
+    },
+    {
+      "title": "CS126 - Software Programming Studio",
+      "description": "Fundamental principles and techniques of software development. Design, documentation, testing, and debugging software, with a significant emphasis on code review. One of my favorite projects in this course is making a ideal gas simulation in C++ using Cinder UI Library.",
+      "completed": true
+    },
+    {
+      "title": "CS173 - Discrete Structures",
+      "description": "Discrete mathematical structures frequently encountered in the study of Computer Science. Sets, propositions, Boolean algebra, induction, recursion, relations, functions, and graphs. Cinder UI Library.",
+      "completed": true
+    },
+    {
+      "title": "CS196 - Freshmen Honors",
+      "description": "Freshmen Honors class in Computer Science taught in Python. Learned about industry practices, version control, machine learning, web development, and created a cool NLP project with a group of 5.",
+      "completed": true
+    },
+    {
+      "title": "CS225 - Data Stuctures and Algorithms",
+      "description": "Data abstractions: elementary data structures (lists, stacks, queues, and trees) and their implementation using an object-oriented programming language. Solutions to a variety of computational problems such as search on graphs and trees.",
+      "completed": false
+    },
+    {
+      "title": "CS233 - Computer Architecture",
+      "description": "Fundamentals of computer architecture: digital logic design, working up from the logic gate level to understand the function of a simple computer; machine-level programming to understand implementation of high-level languages; performance models of modern computer architectures to enable performance optimization of software; hardware primitives for parallelism and security.",
+      "completed": false
+    },
+    {
+      "title": "MATH241 - Calculus 3",
+      "description": "Third course in calculus and analytic geometry including vector analysis: Euclidean space, partial differentiation, multiple integrals, line integrals and surface integrals, the integral theorems of vector calculus.",
+      "completed": true
+    },
+    {
+      "title": "MATH415 - Applied Linear Algebra",
+      "description": "Introductory course emphasizing techniques of linear algebra with applications to engineering; topics include matrix operations, determinants, linear equations, vector spaces, linear transformations, eigenvalues, and eigenvectors, inner products and norms, orthogonality, equilibrium, and linear dynamical systems.",
+      "completed": false
+    }
+  ]
+}
