@@ -8,6 +8,7 @@ import {
   Segment,
   Divider,
   Image,
+  Menu,
 } from "semantic-ui-react";
 import Classes from "./Classes";
 import Projects from "./Projects";
@@ -15,6 +16,17 @@ import Projects from "./Projects";
 function App() {
   return (
     <div>
+      <Menu
+        style={{ position: "fixed", top: 0, width: "100%", zIndex: 10 }}
+        fluid
+        size="large"
+      >
+        <Menu.Item icon="home" href="#landing" />
+        <Menu.Item name="Intro" href="#section-2" />
+        <Menu.Item name="Classes" href="#section-3" />
+        <Menu.Item name="Projects" href="#section-4" />
+        <Menu.Item name="Me" href="#section-5" />
+      </Menu>
       <div class="container-container">
         <section id="landing" class="landing">
           <Container text>
@@ -75,7 +87,7 @@ function App() {
           </Container>
         </section>
         <section id="section-2" class="intro">
-          <Segment compact style={{ top: 0 }}>
+          <Segment style={{ top: 10 }}>
             <Image
               src="/jonah.jpg"
               size="tiny"
@@ -84,29 +96,31 @@ function App() {
             />
             <p>
               Hi! My name is Jonah and I am a sophomore at the University of
-              Illinois Urbana - Champaign studying Computer Science. I have
-              always been fascinated with science and problem solving as a kid.
-              I gravitate towards it because of the progress, excitement and
-              satisfaction that comes along with it. It inspires and motivates
-              me. Being able to program means a lot to me. It gives me the
-              freedom to express my creativity, think systematically, and solve
-              cool, unique, and challenging problems. To pursue this passion, I
-              joined Projects@ACM last semester doing cool projects in machine
-              learning to predict covid-19 cases. I was also part of the CS196
-              Course Staff, and I got a lot during this experience, from project
-              managing to creating a gradebook system which will be implemented
-              next semester!{" "}
+              Illinois Urbana - Champaign studying Computer Science. I
+              remembered when I was 11 years old Mr.Jupiter introduced me to
+              basic, an old programming language developed by Microsoft. Since
+              that moment on, I fell in love with computers and started to do
+              some web development projects and joined a computer club in
+              highschool. Now, I am fortunate enough to go to an amazing college
+              that not only intensify my passion for computers but also pushes
+              me to become a better programmer by learning the principles,
+              concepts, and math that drives modern computers and technologies.
+              My interest is not limited by my classes, last semester I joined
+              Projects@ACM doing cool projects in machine learning to predict
+              covid-19 cases. I was also part of the CS196 Course Staff doing
+              many roles, from project managing to creating a fullstack
+              gradebook system which will be implemented next semester!{" "}
               <a href="https://cs196.cs.illinois.edu/" target="_blank">
-                take a look here
+                take a look here.
               </a>{" "}
-              Woohoo! Currently I am interning at Code Certain, a student
-              startup, as a Software Engineer doing Machine Learning.
+              Now, I am interning at Code Certain, a student startup, as a
+              Software Engineer doing Machine Learning.
             </p>
             <Segment>
               <Button.Group vertical fluid>
                 <Button
                   href="#section-3"
-                  content="Click to see what interesting classes I have taken here. The Illinois CS undergraduate program is ranked 5th by U.S. News & World."
+                  content="Click to see what interesting classes I have taken here."
                   icon="university"
                   size="large"
                 />
@@ -138,8 +152,13 @@ function App() {
           </Container>
           <Classes />
         </section>
-        <section class="contact" id="section-4">
+        <section class="projects" id="section-4">
           <Projects />
+        </section>
+        <section class="me" id="section-5">
+          <Segment style={{ top: 50, height: "80vh" }}>
+            <div>Coming Soon!</div>
+          </Segment>
         </section>
       </div>
     </div>

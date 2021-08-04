@@ -5,7 +5,7 @@ import * as classes from "./classes.json";
 
 export const Classes = () => {
   return (
-    <Segment color="grey" style={{ maxWidth: "80wv" }}>
+    <Segment color="grey" style={{ overflow: "auto", maxHeight: 350 }}>
       <Item.Group>
         {classes.classes.map((item, index) => {
           let Complete = () => {

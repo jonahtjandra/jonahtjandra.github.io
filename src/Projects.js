@@ -8,6 +8,20 @@ export const Projects = () => {
       <h3 style={{ fontSize: "2em", textAlign: "center" }}>My Projects</h3>
       <Card.Group>
         {projects.projects.map((item, index) => {
+          let IsLive = () => {
+            if (item.live) {
+              return (
+                <Card.Content extra>
+                  <a href={item.live} target="_blank">
+                    <Icon name="server" />
+                    See Project Live!
+                  </a>
+                </Card.Content>
+              );
+            } else {
+              return null;
+            }
+          };
           return (
             <Card key={index}>
               <Image src={item.image} wrapped ui={false} />
@@ -21,6 +35,7 @@ export const Projects = () => {
                   See Source Code!
                 </a>
               </Card.Content>
+              <IsLive />
             </Card>
           );
         })}
