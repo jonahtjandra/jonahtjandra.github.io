@@ -97,19 +97,19 @@ function App() {
             <p>
               Hi! My name is Jonah and I am a sophomore at the University of
               Illinois Urbana - Champaign studying Computer Science. I
-              remembered when I was 11 years old Mr.Jupiter introduced me to
-              basic, an old programming language developed by Microsoft. Since
-              that moment on, I fell in love with computers and started to do
-              some web development projects and joined a computer club in
-              highschool. Now, I am fortunate enough to go to an amazing college
-              that not only intensify my passion for computers but also pushes
-              me to become a better programmer by learning the principles,
-              concepts, and math that drives modern computers and technologies.
-              My interest is not limited by my classes, last semester I joined
-              Projects@ACM doing cool projects in machine learning to predict
-              covid-19 cases. I was also part of the CS196 Course Staff doing
-              many roles, from project managing to creating a fullstack
-              gradebook system which will be implemented next semester!{" "}
+              remembered when I was 11 years old, I got my first introduction to
+              programming with basic, an old programming language developed by
+              Microsoft. I remembered tinkering with it in computer class. Even
+              if that day was not a basic lesson, I would finish up early and
+              spend my time on basic. Since that moment on, I fell in love with
+              computers and started to do some web development projects and
+              joined a computer club in highschool. College not only continues
+              to develop my passion for computers but also inspires me to become
+              a great programmer. Last semester I joined Projects@ACM doing cool
+              projects in machine learning to predict covid-19 cases. I was also
+              part of the CS196 Course Staff doing many roles, from project
+              managing to creating a fullstack gradebook system which will be
+              implemented next semester!{" "}
               <a href="https://cs196.cs.illinois.edu/" target="_blank">
                 take a look here.
               </a>{" "}
