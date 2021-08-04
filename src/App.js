@@ -93,27 +93,31 @@ function App() {
               size="tiny"
               href="#section-3"
               floated="left"
+              rounded
             />
             <p>
               Hi! My name is Jonah and I am a sophomore at the University of
-              Illinois Urbana - Champaign studying Computer Science. I
-              remembered when I was 11 years old, I got my first introduction to
-              programming with basic, an old programming language developed by
-              Microsoft. I remembered tinkering with it in computer class. Even
-              if that day was not a basic lesson, I would finish up early and
-              spend my time on basic. Since that moment on, I fell in love with
-              computers and started to do some web development projects and
-              joined a computer club in highschool. College not only continues
-              to develop my passion for computers but also inspires me to become
-              a great programmer. Last semester I joined Projects@ACM doing cool
-              projects in machine learning to predict covid-19 cases. I was also
-              part of the CS196 Course Staff doing many roles, from project
-              managing to creating a fullstack gradebook system which will be
-              implemented next semester!{" "}
+              Illinois Urbana - Champaign studying Computer Science. I was 12
+              years old when I got my first introduction to programming. Our
+              teacher taught us how to write instructions to a computers with
+              basic, an old programming language developed by Microsoft. I
+              remembered it being very satisfying to write logical and
+              arithmetic operations that the computers can perform precisely
+              instantaneously. It felt magical. I was so happy everytime it was
+              computer class, even if it was not a basic lesson, I would finish
+              up early and spend my time tinkering in basic. Since that moment
+              on, I fell in love with computers and started to do some of my own
+              web development projects and joined a computer club. Now, college
+              continues to develop my passion for computers and inspires me to
+              become a better programmer. Last semester I am involved in
+              Projects@ACM doing projects in time-series prediction of covid-19
+              cases. I was also part of the CS196 Course Staff doing many roles,
+              from project managing to creating and deploying a gradebook which
+              will be implemented next semester!{" "}
               <a href="https://cs196.cs.illinois.edu/" target="_blank">
                 take a look here.
               </a>{" "}
-              Now, I am interning at Code Certain, a student startup, as a
+              Currently, I am interning at Code Certain, a student startup, as a
               Software Engineer doing Machine Learning.
             </p>
             <Segment>
