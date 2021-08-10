@@ -25,7 +25,6 @@ function App() {
         <Menu.Item name="Intro" href="#section-2" />
         <Menu.Item name="Classes" href="#section-3" />
         <Menu.Item name="Projects" href="#section-4" />
-        <Menu.Item name="Me" href="#section-5" />
       </Menu>
       <div class="container-container">
         <section id="landing" class="landing">
@@ -99,7 +98,7 @@ function App() {
               Hi! My name is Jonah and I am a sophomore at the University of
               Illinois Urbana - Champaign studying Computer Science. I was 12
               years old when I got my first introduction to programming. Our
-              teacher taught us how to write instructions to a computers with
+              teacher taught us how to write instructions to a computer with
               basic, an old programming language developed by Microsoft. I
               remembered it being very satisfying to write logical and
               arithmetic operations that the computers can perform precisely
@@ -117,8 +116,8 @@ function App() {
               <a href="https://cs196.cs.illinois.edu/" target="_blank">
                 take a look here.
               </a>{" "}
-              Currently, I am interning at Code Certain, a student startup, as a
-              Software Engineer doing Machine Learning.
+              This summer, I am interning at Code Certain, a student startup, as
+              a Software Engineer doing Machine Learning.
             </p>
             <Segment>
               <Button.Group vertical fluid>
@@ -158,11 +157,6 @@ function App() {
         </section>
         <section class="projects" id="section-4">
           <Projects />
-        </section>
-        <section class="me" id="section-5">
-          <Segment style={{ top: 50, height: "80vh" }}>
-            <div>Coming Soon!</div>
-          </Segment>
         </section>
       </div>
     </div>

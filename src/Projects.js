@@ -30,9 +30,9 @@ export const Projects = () => {
                 <Card.Description>{item.description}</Card.Description>
               </Card.Content>
               <Card.Content extra>
-                <a href={item.link} target="_blank">
+                <a href={item.link ? item.link : ""} target="_blank">
                   <Icon name="github" />
-                  See Source Code!
+                  {item.link ? "See Source Code!" : "No Source Code Available"}
                 </a>
               </Card.Content>
               <IsLive />

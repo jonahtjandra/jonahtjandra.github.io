@@ -18,21 +18,7 @@
       "title": "Naive Bayes Classifier",
       "description": "Created a naïve bayes classifier from scratch and achieved 77% accuracy on the MNIST dataset. Utilized Cinder UI library to create a sketchpad to make the model predict on hand drawn digit",
       "image": "/naivebayes.gif",
-      "link": "https://github.com/jonahtjandra",
-      "live": ""
-    },
-    {
-      "title": "Ideal Gas Particle Simulator",
-      "description": "Created a 2 dimensional gas particle simulator and visualization using Cinder UI. Approched using angle free vector representation of velocity under the assumption of perfectly elastic collisions.",
-      "image": "/idealgas.gif",
-      "link": "https://github.com/jonahtjandra",
-      "live": ""
-    },
-    {
-      "title": "Sudoku Solver",
-      "description": "Used Python to create a program that can display custom sudoku boards and solve them using recursion and backtracking algorithm.",
-      "image": "/sudoku.png",
-      "link": "https://github.com/jonahtjandra/sudoku-solver",
+      "link": "https://github.com/jonahtjandra/naive-bayes-classifier",
       "live": ""
     },
     {
@@ -40,6 +26,27 @@
       "description": "Summarizing lectures using T5 text-to-text transfer. Worked on fine-tuning model with lecture transcripts, implementing model using Flask Python for building REST API endpoints,  and user authentication with Google o Auth.",
       "image": "summarizer.png",
       "link": "https://github.com/jonahtjandra/lecture-summarizer",
+      "live": ""
+    },
+    {
+      "title": "Ideal Gas Particle Simulator",
+      "description": "Created a 2 dimensional gas particle simulator and visualization using Cinder UI. Approched using angle free vector representation of velocity under the assumption of perfectly elastic collisions.",
+      "image": "/idealgas.gif",
+      "link": "https://github.com/jonahtjandra/ideal-gas-simulator",
+      "live": ""
+    },
+    {
+      "title": "Galalaksana",
+      "description": "Created a website for a food trading company utilising HTML, CSS, JavaScript and Whatsapp Click to Chat API",
+      "image": "/gala.png",
+      "link": "",
+      "live": "http://galalaksana.com"
+    },
+    {
+      "title": "Sudoku Solver",
+      "description": "Used Python to create a program that can display custom sudoku boards and solve them using recursion and backtracking algorithm.",
+      "image": "/sudoku.png",
+      "link": "https://github.com/jonahtjandra/sudoku-solver",
       "live": ""
     }
   ]
