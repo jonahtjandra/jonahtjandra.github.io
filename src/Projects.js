@@ -9,7 +9,16 @@ export const Projects = () => {
       <Card.Group>
         {projects.projects.map((item, index) => {
           let IsLive = () => {
-            if (item.live) {
+            if (item.live === "prod") {
+              return (
+                <Card.Content extra>
+                  <div>
+                    <Icon name="server" />
+                    Project is down and underdevelopment for the fall 2021 semester. Check again soon!
+                  </div>
+                </Card.Content>
+              );
+            } else if (item.live) {
               return (
                 <Card.Content extra>
                   <a href={item.live} target="_blank">
