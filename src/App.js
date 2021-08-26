@@ -44,7 +44,7 @@ function App() {
               />
               <Header
                 as="h2"
-                content="Computer Science student and Software Engineer"
+                content="Computer Science student and Software Developer"
                 inverted
                 style={{
                   color: "black",
@@ -97,27 +97,18 @@ function App() {
             <p>
               Hi! My name is Jonah and I am a sophomore at the University of
               Illinois Urbana - Champaign studying Computer Science. I was 12
-              years old when I got my first introduction to programming. Our
-              teacher taught us how to write instructions to a computer with
-              basic, an old programming language developed by Microsoft. I
+              years old when I got my first introduction to programming. It was in Microsoft Basic and I
               remembered it being very satisfying to write logical and
               arithmetic operations that the computers can perform precisely
-              instantaneously. It felt magical. I was so happy everytime it was
-              computer class, even if it was not a basic lesson, I would finish
-              up early and spend my time tinkering in basic. Since that moment
+              instantaneously. Since that moment
               on, I fell in love with computers and started to do some of my own
-              web development projects and joined a computer club. Now, college
+              web development projects. Now, college
               continues to develop my passion for computers and inspires me to
-              become a better programmer. Last semester I am involved in
+              become a better programmer. It also exposes me to the wonderful things computers can build and achieve. Last semester I am involved in
               Projects@ACM doing projects in time-series prediction of covid-19
-              cases. I was also part of the CS196 Course Staff doing many roles,
-              from project managing to creating and deploying a gradebook which
-              will be implemented next semester!{" "}
-              <a href="https://cs196.cs.illinois.edu/" target="_blank">
-                take a look here.
-              </a>{" "}
-              This summer, I am interning at Code Certain, a student startup, as
-              a Software Engineer doing Machine Learning.
+              cases. I was also a project manager for CS 196 leading a computer vision project.
+              Last summer, I was interning at Code Certain, a student startup, as
+              a Software Engineer doing Machine Learning. Now I am the web lead for CS 196 and CS 128 Honors creating new features like the Gradebook system, Lectures page, and maintaing the overall architecture of the website. I am interested in working on building great products that can change people's lives.
             </p>
             <Segment>
               <Button.Group vertical fluid>
