@@ -1,7 +1,11 @@
 import React from "react";
+import MenuItem from "./Component/MenuItem"
 function About() {
     return (
-        <h1>This is About</h1>
+        <div>
+        <MenuItem />
+        <h1>This is Abouts</h1>
+        </div>
     )
 }
 

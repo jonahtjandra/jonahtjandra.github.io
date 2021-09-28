@@ -1,7 +1,11 @@
 import React from "react";
+import MenuItem from "./Component/MenuItem"
 function Classes() {
     return (
-        <h1>This is Classes</h1>
+        <div>
+            <MenuItem />
+            <h1>This is Classes</h1>
+        </div>
     )
 }
 

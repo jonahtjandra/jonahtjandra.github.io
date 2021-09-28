@@ -1,0 +1,21 @@
+.openNav {
+    position: relative;
+    z-index: 10;
+    margin-top:2%;
+    width:100vw;
+    height:100vh;
+    color:black;
+    background-color: whitesmoke;
+}
+.closeNav {
+    display:none;
+    color:black;
+}
+
+.navlink {
+    color: black;
+}
+
+.navlink:hover {
+    color: rgb(80, 80, 80);
+ }
