@@ -4,6 +4,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #242526;
+}
+
 .nav {
   z-index: 10;
 }
