@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Dermeyetology",
+      "description": "Developed an online service that allows user to diagnose their skin conditions on the cloud. Giving advice on how to treat their particular condition. Utilized Google O Auth for security and user authentication. Built frontend using React JS, built backend using Flask Python, built database storage using MySQL, and Tensorflow for Machine Learning predictions.",
+      "image": "dermeyetology_gif.gif",
+      "link": "https://github.com/jonahtjandra/dermeyetology",
+      "live": ""
+    },
+    {
       "title": "CS 196 Course Website",
       "description": "Developed a Gradebook System for CS196 (200+ students) using Flask backend, MySQL database, Google OAuth authentication, Angular frontend, and deployment using Apache2. Write a deployment script for ease of deployment to apache2 server. Designed scripts to parse grades into mysql database. Backend is private for security reasons. Designed and implemented the lectures page and mantain the overall architecture of website.",
       "image": "124.png",

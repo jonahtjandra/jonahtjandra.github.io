@@ -95,20 +95,10 @@ function App() {
               rounded
             />
             <p>
-              Hi! My name is Jonah and I am a sophomore at the University of
-              Illinois Urbana - Champaign studying Computer Science. I was 12
-              years old when I got my first introduction to programming. It was in Microsoft Basic and I
-              remembered it being very satisfying to write logical and
-              arithmetic operations that the computers can perform precisely
-              instantaneously. Since that moment
-              on, I fell in love with computers and started to do some of my own
-              web development projects. Now, college
-              continues to develop my passion for computers and inspires me to
-              become a better programmer. It also exposes me to the wonderful things computers can build and achieve. Last semester I am involved in
+              Hi! My name is Jonah and I am a sophomore at UIUC studying CS 💻. I love hackathons and I am passionate about tech and software development 🔥. Last semester I was involved in
               Projects@ACM doing projects in time-series prediction of covid-19
-              cases. I was also a project manager for CS 196 leading a computer vision project.
-              Last summer, I was interning at Code Certain, a student startup, as
-              a Software Engineer doing Machine Learning. Now I am the web lead for CS 196 and CS 128 Honors creating new features like the Gradebook system, Lectures page, and maintaing the overall architecture of the website. I am interested in working on building great products that can change people's lives.
+              cases. I was also interning at Code Certain, a student startup, last summer as
+              a Software Engineer in the Machine Learning track. Now I am the web lead and project manager for CS 196 and CS 128 Honors creating new features like the Gradebook system and leading interesting computer vision projects 🤩. I am interested on building great products that can change the world 🌎.
             </p>
             <Segment>
               <Button.Group vertical fluid>

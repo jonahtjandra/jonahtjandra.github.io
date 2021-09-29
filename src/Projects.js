@@ -41,7 +41,7 @@ export const Projects = () => {
               <Card.Content extra>
                 <a href={item.link ? item.link : ""} target="_blank">
                   <Icon name="github" />
-                  {item.link ? "See Source Code!" : "No Source Code Available"}
+                  {item.link ? "See Source Code and Demo!" : "No Source Code Available"}
                 </a>
               </Card.Content>
               <IsLive />
