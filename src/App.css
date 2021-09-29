@@ -19,7 +19,6 @@ section {
   color: white;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  padding: 2%;
 }
 
 .intro {
@@ -36,7 +35,6 @@ p {
   }
   .intro {
     flex-direction: column;
-    padding: 2%;
   }
   p {
     font-size: 14px;
