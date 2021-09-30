@@ -5,8 +5,16 @@ import * as classes from "./classes.json";
 
 export const Classes = () => {
   return (
-    <Segment color="grey" style={{ overflow: "auto", maxHeight: 350 }}>
+    <Segment color="grey" style={{ marginTop: '0', overflow: "auto", maxHeight: 600 }}>
       <Item.Group>
+        <img style={{width:'130px', zIndex:'0', position: 'absolute',
+                top: '174%',
+                left: '75%',
+                transform: 'translate(-50%, -50%)'}}src="stareyes.png"/>
+        <img style={{width:'130px', zIndex:'0', position: 'absolute',
+        top: '37%',
+        left: '75%',
+        transform: 'translate(-50%, -50%)'}}src="gasp.png"/>
         {classes.classes.map((item, index) => {
           let Complete = () => {
             if (item.completed) {

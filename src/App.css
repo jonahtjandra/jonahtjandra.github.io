@@ -30,8 +30,9 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-  .section {
+  section {
     padding-top: 0;
+    height:100vh;
   }
   .intro {
     flex-direction: column;

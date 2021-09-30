@@ -12,6 +12,7 @@ import {
 } from "semantic-ui-react";
 import Classes from "./Classes";
 import Projects from "./Projects";
+import MenuItem from './Pages/Component/MenuItem'
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
         <section id="landing" class="landing">
           <Container text>
             <Segment style={{ padding: "8em 0em" }} vertical>
+              <img style={{width:'130px', zIndex:'0', position: 'absolute',
+                top: '36%',
+                left: '70%',
+                transform: 'translate(-50%, -50%)'}}src="hello.png"/>
               <Header
                 as="h2"
                 content="Jonah Tjandra"
@@ -95,10 +100,10 @@ function App() {
               rounded
             />
             <p>
-              Hi! My name is Jonah and I am a sophomore at UIUC studying CS 💻. I love hackathons and I am passionate about tech and software development 🔥. Last semester I was involved in
+              Hi! My name is Jonah and I am a sophomore at UIUC studying CS 💻. I love hackathons because I love the idea of building and executing an idea into reality. I am really passionate about tech and software development 🔥. Besides studying CS in university, I do cool side projects on the side. Check it out below! I want to get into Artificial Intelligence/Data 🤖, but I am also interested in systems and cloud computing. Last semester I was involved in
               Projects@ACM doing projects in time-series prediction of covid-19
-              cases. I was also interning at Code Certain, a student startup, last summer as
-              a Software Engineer in the Machine Learning track. Now I am the web lead and project manager for CS 196 and CS 128 Honors creating new features like the Gradebook system and leading interesting computer vision projects 🤩. I am interested on building great products that can change the world 🌎.
+              cases. Last summer, I was also interning at Code Certain, a startup,
+              as a Software Engineer in the Machine Learning track. Now I am the web lead and project manager for CS 196 and CS 128 Honors creating new features like the Gradebook system and leading interesting computer vision projects 🤩. I am also a software developer contributing to multiple on-going projects under the Caesar Research Group such as the networking app: PeopleWeave. I am interested on building great products that can change the world 🌎.
             </p>
             <Segment>
               <Button.Group vertical fluid>
@@ -129,7 +134,6 @@ function App() {
                 color: "black",
                 fontSize: "2em",
                 fontWeight: "normal",
-                marginBottom: "1em",
                 marginTop: "1em",
               }}
             />
