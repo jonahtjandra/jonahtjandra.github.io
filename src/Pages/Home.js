@@ -32,7 +32,7 @@ function Home() {
                                 icon="linkedin"
                             />
                             <Button
-                                href="resume.pdf"
+                                href="Resume2021.pdf"
                                 target="_blank"
                                 circular
                                 icon="file alternate outline"
