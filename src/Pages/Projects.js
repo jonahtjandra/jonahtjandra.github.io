@@ -7,7 +7,6 @@ function Projects() {
     return (
         <div>
         <MenuItem />
-        <h3 style={{ fontSize: "2em", textAlign: "center" }}>My Projects</h3>
         <Segment className="mainContainer">
         <div/>
         <Card.Group>
@@ -37,7 +36,7 @@ function Projects() {
             };
             return (
                 <Card key={index}>
-                <Image src={item.image} wrapped ui={false} />
+                <Image src={item.image} wrapped ui={true} />
                 <Card.Content>
                     <Card.Header>{item.title}</Card.Header>
                     <Card.Description>{item.description}</Card.Description>

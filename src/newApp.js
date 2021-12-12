@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Classes from "./Pages/Classes";
 import Projects from "./Pages/Projects";
+import {Link} from 'react-router-dom'
 
 function App() {
     return (

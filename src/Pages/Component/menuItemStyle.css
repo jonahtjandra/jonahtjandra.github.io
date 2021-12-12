@@ -1,0 +1,40 @@
+
+@media only screen and (max-width: 768px) {
+    .nav {
+       width: 80vw !important;
+    }
+    .name {
+        width: 90vw !important;
+    }
+}
+
+.navBar {
+    padding-top: 5%;
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.nav {
+    align-items: baseline;
+    display: flex;
+    width:25vw;
+    justify-content: space-between;
+}
+
+.navLink {
+    color: rgb(0, 0, 0);
+}
+
+.navLink:hover {
+    color : rgb(128, 132, 136);
+}

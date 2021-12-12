@@ -23,12 +23,12 @@
     {
       "title": "CS225 - Data Stuctures and Algorithms",
       "description": "Data abstractions: elementary data structures (lists, stacks, queues, and trees) and their implementation using an object-oriented programming language. Solutions to a variety of computational problems such as search on graphs and trees.",
-      "completed": false
+      "completed": true
     },
     {
       "title": "CS233 - Computer Architecture",
       "description": "Fundamentals of computer architecture: digital logic design, working up from the logic gate level to understand the function of a simple computer; machine-level programming to understand implementation of high-level languages; performance models of modern computer architectures to enable performance optimization of software; hardware primitives for parallelism and security.",
-      "completed": false
+      "completed": true
     },
     {
       "title": "MATH241 - Calculus 3",
@@ -38,7 +38,7 @@
     {
       "title": "MATH415 - Applied Linear Algebra",
       "description": "Introductory course emphasizing techniques of linear algebra with applications to engineering; topics include matrix operations, determinants, linear equations, vector spaces, linear transformations, eigenvalues, and eigenvectors, inner products and norms, orthogonality, equilibrium, and linear dynamical systems.",
-      "completed": false
+      "completed": true
     }
   ]
 }

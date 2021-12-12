@@ -1,7 +1,5 @@
-.mainContainer {
-    width:100vw;
-    height:80vh;
-    display:grid;
-    place-items: center;
-    grid-template-columns: 0.1fr 1fr 0.1fr;
+.mainContainerAbout {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
 }

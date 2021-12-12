@@ -1,15 +1,15 @@
 import React from "react";
 import MenuItem from "./Component/MenuItem"
-import "./about.style.css"
+import "./classes.style.css"
 import { Icon, Item, Segment } from "semantic-ui-react";
 import * as classes from "../classes.json";
 function Classes() {
     return (
         <div>
             <MenuItem />
-            <div className="mainContainer">
+            <div className="mainContainerClasses">
                 <div/>
-                <Segment color="grey" style={{ marginTop: '5%', overflow: "auto", maxHeight: 600 }}>
+                <Segment color="grey" style={{ overflow: "auto", maxHeight: 500 }}>
                 <Item.Group>
                     {classes.classes.map((item, index) => {
                     let Complete = () => {
