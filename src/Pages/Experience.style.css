@@ -1,0 +1,18 @@
+.experience-container {
+  display: grid;
+  height: 70vh;
+  grid-auto-rows: 1fr 5fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-areas:
+    ". . ."
+    ". a ."
+    ". . . ";
+}
+
+.experience {
+  display: grid;
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+  align-self: start;
+}

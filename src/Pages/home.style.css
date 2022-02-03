@@ -4,34 +4,39 @@ h1 {
 
 .homeContainer {
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    ". b b a a a a a a a a ."
+    ". b b a a a a a a a a .";
 }
 
 .openNav {
-    position: relative;
-    z-index: 10;
-    margin-top:2%;
-    width:100vw;
-    height:100vh;
-    color:black;
-    background-color: whitesmoke;
+  position: relative;
+  z-index: 10;
+  margin-top: 2%;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  background-color: whitesmoke;
 }
 .closeNav {
-    display:none;
-    color:black;
+  display: none;
+  color: black;
 }
 
 .navlink {
-    color: black;
+  color: black;
 }
 
 .navlink:hover {
-    color: rgb(80, 80, 80);
- }
+  color: rgb(80, 80, 80);
+}
 
- HTML CSS JSResult Skip Results Iframe
-EDIT ON
-body {
+.links {
+  margin-bottom: 8vw;
+}
+
+HTML CSS JSResult Skip Results Iframe EDIT ON body {
   margin: 0px;
   padding: 0px;
 }
@@ -46,6 +51,24 @@ body {
   min-height: 100vh;
   background-color: var(--bgColor);
   border: 12px solid var(--contrast);
+}
+
+.content {
+  display: grid;
+  justify-self: right;
+  align-self: right;
+  grid-area: a;
+}
+
+.profile-image {
+  grid-area: b;
+  object-fit: cover;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 50%;
+  display: grid;
+  justify-self: left;
+  align-self: left;
 }
 
 .flex {
@@ -151,7 +174,7 @@ body {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 590px) {
   .box {
     font-size: 40px;
   }
@@ -166,5 +189,23 @@ body {
     width: 10px;
     margin-left: -4px;
     margin-top: 13px;
+  }
+  .homeContainer {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      "b"
+      "a";
+  }
+  .profile-image {
+    height: 55vw;
+    width: 55vw;
+    align-self: center;
+    justify-self: center;
+  }
+  .content {
+    margin-left: 4vw;
+    margin-right: 4vw;
   }
 }

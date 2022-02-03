@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Classes from "./Pages/Classes";
 import Projects from "./Pages/Projects";
+import Experience from "./Pages/ExperiencePage";
 import {Link} from 'react-router-dom'
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
                 <Route path="/classes">
                     <Classes />
                 </Route>
-                <Route path="/about">
-                    <About />
+                <Route path="/experiences">
+                    <Experience />
                 </Route>
                 <Route path="/">
                     <Home />
